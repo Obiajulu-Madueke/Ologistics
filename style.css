@@ -1,0 +1,485 @@
+body{
+    font-family:'Tilt Prism', cursive;
+}
+
+.first{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+
+}
+.background{
+    height: 100vh;
+    width:100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url('/img/Monocrome\ plane\ pexels-lucas-pezeta-6252321.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.background2{
+    height: 100vh;
+    width:100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url('img/cargo\ trains\ pexels-nacho-monge-15176546.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.background3{
+    height: 100vh;
+    width:100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url('img/Fleet\ of\ trucks\ pexels-kevin-bidwell-2348359.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.background4{
+    height: 100vh;
+    width:100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url('img/Monocrome\ Man\ checking\ app\ pexels-ketut-subiyanto-4559704.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+}
+.m-10{
+    margin-bottom: 200px;
+}
+
+.text-center {
+    text-align: center;
+  }
+  
+
+  .animate__animated {
+    animation-duration: 7s;
+    animation-fill-mode: both;
+  }
+  
+  .animate__fadeIn {
+    animation-name: fadeIn;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+
+@media screen and (max-width:960px) {
+    .background{
+        height: 70vh;
+        width:100%;
+        background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url('img/Fleet\ of\ trucks\ pexels-kevin-bidwell-2348359.jpg');
+        background-size: 100% 100%;
+        background-position: center;
+    }  
+    .background2{
+        height: 70vh;
+        width:100%;
+        background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url('img/cargo\ trains\ pexels-nacho-monge-15176546.jpg');
+        background-size: 100% 100%;
+        background-position: center;
+    } 
+    .background3{
+        height: 70vh;
+        width:100%;
+        background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url('/img/Monocrome\ plane\ pexels-lucas-pezeta-6252321.jpg');
+        background-size: 100% 100%;
+        background-position: center;
+    }  
+    .background4{
+        height: 70vh;
+        width:100%;
+        background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url('img/rsz_baby_and_dad_pexels-sasha-kim-8432447.jpg');
+        background-size: 100% 100%;
+        background-position: center;
+    } 
+    .texts2{
+        margin-top: 100px;
+        margin-right: 500px;
+    }
+    
+}
+
+.texts{
+    margin-top: 400px;
+    margin-right: 500px;
+}
+.readmore1{
+    height: 40vh;
+    width:40%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url('img/Read\ me-pixabay-262353.jpg');
+    background-size:100% 100%;
+    background-position: center;
+
+}
+
+.readmore2{
+    height: 40vh;
+    width:40%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url('img/Read\ me\ 2-francisco-ferreira-13311393.jpg');
+    background-size:100% 100%;
+    background-position: center;
+
+}
+
+.readmore3{
+    height: 40vh;
+    width:40%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url('img/read\ me\ 3-pixabay-459402.jpg');
+    background-size:100% 100%;
+    background-position: center;
+
+}
+
+.readmore4{
+    height: 100vh;
+    width:100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url('img/read\ me\ 3-pixabay-459402.jpg');
+    background-size:100% 100%;
+    background-position: center;
+
+}
+
+.readmore5{
+    height: 100vh;
+    width:100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url('img/read\ me\ 3-pixabay-459402.jpg');
+    background-size:100% 100%;
+    background-position: center;
+
+}
+
+.readmore6{
+    height: 100vh;
+    width:100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url('img/read\ me\ 3-pixabay-459402.jpg');
+    background-size:100% 100%;
+    background-position: center;
+
+}
+
+.readmore7{
+    height: 40vh;
+    width:100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url('img/Routes\ \(1\).jpg');
+    background-size:100% 100%;
+    background-position: center;
+
+}
+
+.readmore8{
+    height: 100vh;
+    width:100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url('img/Partner.jpg');
+    background-size:100% 100%;
+    background-position: center;
+
+}
+
+.readmore9{
+    height: 30vh;
+    width:100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)) ,url('/img/Our\ team\ \(1\).jpg');
+    background-size:100% 100%;
+    background-position: center;
+
+}
+.readmore10{
+    height: 30vh;
+    width:100%;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0,0,0,.5)) ,url('/img/Our\ team\ \(2\).jpg');
+    background-size:100% 100%;
+    background-position: center;
+
+}
+
+.readmore11{
+    height: 30vh;
+    width:100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)) ,url('/img/Our\ team\ \(3\).jpg');
+    background-size:130% 100%;
+    background-position: center;
+
+}
+
+.readmore12{
+    height: 30vh;
+    width:100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)) ,url('/img/Our\ team\ \(4\).jpg');
+    background-size:100% 100%;
+    background-position: center;
+
+}
+
+.blog{
+    height: 33vh;
+    width:100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)) ,url('/img/Our\ team\ \(4\).jpg');
+    background-size:100% 100%;
+    background-position: center;
+
+}
+
+.blog2{
+    height: 15vh;
+    width:100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)) ,url('');
+    background-size:100% 100%;
+    background-position: center;
+
+}
+
+.blog3{
+    height: 50vh;
+    width:100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.9), rgba(0,0,0,.5)) ,url('/img/cargo\ trains\ pexels-nacho-monge-15176546.jpg');
+    background-size:100% 100%;
+    background-position: center;
+
+}
+
+
+
+.tracking{
+    height: 20vh;
+    width: 130%;
+    background-color: black;
+}
+
+.tracking2{
+    height: 30vh;
+    width: 130%;
+    padding-left: 50vh;
+    padding-bottom: 50vh;
+    align-items: center;
+}
+
+.smile{
+    height: 30vh;
+    width:30%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url('img/shipping-julius-silver-753331.jpg');
+    background-size:100% 100%;
+    background-position: center;
+    text-decoration: none;
+    color: white;
+
+}
+
+.delivery{
+    height: 30vh;
+    width:40%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url('img/plane-marina-hinic-730778.jpg');
+    background-size:100% 100%;
+    background-position: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px solid red;
+
+}
+
+.rail{
+    height: 30vh;
+    width:40%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url('img/delivery-kindel-media-6869065.jpg');
+    background-size:100% 100%;
+    background-position: center;
+    text-decoration: none;
+    color: white;
+
+}
+
+.carousel2{
+    height: 30vh;
+    width:40%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url('img/pexels-quintin-gellar-2199293.jpg');
+    background-size:100% 100%;
+    background-position: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px solid red;   height: 50vh;
+    color: white;
+}
+
+.partners{
+    height: 15vh;
+    width:20%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url('img/pexels-frank-cone-2235130.jpg');
+    background-size:100% 100%;
+    background-position: center;
+    text-decoration: none;
+
+}
+
+.partners2{
+    height: 15vh;
+    width:20%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url('img/pexels-lucas-pezeta-6252321.jpg');
+    background-size:100% 100%;
+    background-position: center;
+    text-decoration: none;
+
+}
+
+.partners3{
+    height: 15vh;
+    width:20%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url('img/pexels-magda-ehlers-1337380.jpg');
+    background-size:100% 100%;
+    background-position: center;
+    text-decoration: none;
+
+}
+
+.partners4{
+    height: 15vh;
+    width:20%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url('img/pexels-lucas-pezeta-6252321.jpg');
+    background-size:100% 100%;
+    background-position: center;
+    text-decoration: none;
+
+}
+
+.inner-element {
+    animation-name: scroll;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+   
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-5%);
+    }
+  }
+
+.faq{
+    height: 50vh;
+    width:150%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url('img/pexels-soumil-kumar-735911.jpg');
+    background-size:100% 100%;
+    background-position: center;
+    text-decoration: none;
+
+}
+
+.inner-button{
+    width: 100%;
+    height: 5vh;
+    border-left: 5px solid red;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.inner-button:hover{
+    width: 60%;
+    height: 5vh;
+    border-left: 5px solid red;
+    background-color: rgb(255, 255, 255);
+
+}
+
+h4{
+    text-align:center;
+}
+
+.contact{
+    height: 15vh;
+    width:150%;
+
+}
+
+.btn-border-light:hover {
+    background-color: #fff;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.btn a:hover{
+    color: #fff;
+}
+
+h3{
+    text-decoration: none;
+    
+}
+  
+ul{
+    list-style: none;
+    margin-right: 100px;
+}
+  
+  
+li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.centered-bg-black {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    animation: fadeIn ease 1s;
+}
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.form{
+    height: 60vh;
+    align-items: center;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 60px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.3), rgba(0,0,0,.1)) ,url('');
+}
+
+.{
+    height: 100vh;
+    width:100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.1), rgba(0,0,0,.1)) ,url('/img/Cloud.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.contact{
+    height: 60vh;
+    width:100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.1), rgba(0,0,0,.9)) ,url('img/Contact\ us.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.contact1{
+    height: 60vh;
+    width:100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.1), rgba(0,0,0,.9)) ,url('img/Contact\ us1.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.contact2{
+    height: 60vh;
+    width:100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.1), rgba(0,0,0,.9)) ,url('img/Contact\ 2.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+
+ 
+
+
+
+
+    
+
+
